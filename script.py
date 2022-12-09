@@ -24,7 +24,7 @@ col1, col2 = st.columns(2)
 with col1:
     style = st.file_uploader('Upload the style file')
     print(style)
-    st.write(style)
+    #st.write(style)
     st.image(style)
 
     data = style.getvalue()
@@ -32,7 +32,7 @@ with col1:
 
 with col2:
     person  = st.file_uploader("Upload the image")
-    st.write(person)
+    #st.write(person)
     # print(person)
     st.image(person)
 
